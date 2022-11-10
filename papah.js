@@ -3472,7 +3472,7 @@ require('./lib/tiktok').Tiktok(q).then( data => {
         {buttonId: `tiktoknowm ${q}`, buttonText: {displayText: ' No Watermark ►'}, type: 1},
         {buttonId: `tiktokmp3 ${q}`, buttonText: {displayText: 'Audio ♫'}, type: 1}
     ]
-papah.sendMessage(m.chat, { caption: 'Kamu bisa mengubahnya menjadi Vidio Tanpa Watermark atau Audio, pencet tombol dibawah untuk mengubahnya!', video: { url: data.watermark }, buttons: buttons, footer: `© Sad-Bot`, mentions: [sender] })
+papah.sendMessage(m.chat, { caption: 'Kamu bisa mengubahnya menjadi Vidio Tanpa Watermark atau Audio, pencet tombol dibawah untuk mengubahnya!', video: { url: data.watermark }, buttons: buttons, footer: `©Xzn-Bot`, mentions: [sender] })
 })
 }
 break
